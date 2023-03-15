@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Template</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg bg-white small border-bottom shadow-sm fixed-top custom-nav" style="--bs-bg-opacity:.9">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <span class="brand-style brand-gradient">
+                    BLOG APP
+                </span>
+            </a>
+            <button type="button" 
+                    class="navbar-toggler" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#blog-navbar"
+                    aria-controls="blog-navbar"
+                    aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="blog-navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="page.html" class="nav-link">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="default.html" class="nav-link">Default</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input type="search" class="form-control form-control-sm" placeholder="Search Here">
+                        <button type="submit" class="btn btn-sm btn-success">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Banner Starts -->
+    <section class="banner-holder pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="banner-content text-center text-white my-5 py-5">
+                        <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel culpa nulla saepe aut reprehenderit qui, voluptatum optio vitae quod temporibus quaerat odit voluptate dolores.</p>
+                        <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#subscribe-modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check me-1" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                                <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+                            </svg>
+                            Subscribe For Newsletters
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Ends -->
+
+    <!-- Home Posts Section Starts -->
+    <section class="home-posts py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-1.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-2.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-3.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-4.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-5.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-6.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-7.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm mb-3">
+                        <img src="images/post-image-8.jpg" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h3 class="fs-5">Lorem ipsum</h3>
+                            <p class="small fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo nobis excepturi laudantium neque voluptas voluptates consectetur amet quae officia illo.</p>
+                            <a href="page.html" class="btn btn-sm btn-primary rounded-pill shadow-sm px-3">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Posts Section Ends -->
+
+    <!-- Blog Footer Starts-->
+    <footer class="main-footer text-bg-dark p-4 text-center">
+        <p class="m-0"><small>Copyright &copy; 2023. All Rights Reserved</small></p>
+    </footer>
+    <!-- Blog Footer Ends-->
+
+    <!-- Scbscribe Modal Starts-->
+    <div class="modal fade" 
+         id="subscribe-modal" 
+         data-bs-backdrop="static" 
+         data-bs-keyboard="false"
+         tabindex="-1"
+         aria-hidden="true"> 
+
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header subscribe-modal-header">
+                    <h5 class="modal-title">Subscribe for Newsletters</h5>
+                    <button type="button" class="btn-close btn-close-white" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Email Id" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-sm btn-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check me-1" viewBox="0 0 16 16">
+                                            <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                                            <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+                                        </svg>
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+         </div>
+    </div>
+    <!-- Scbscribe Modal Ends -->
+
+    <!-- Bootstrap JS-->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
